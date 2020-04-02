@@ -9,7 +9,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src"
+    "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
+    "test": "cd spec && nyc mocha --require ts-node/register --bail **/*.spec.ts > COVERAGE.md"
   },
   "dependencies": {
     "ts-tooling": "^3.0.2",
