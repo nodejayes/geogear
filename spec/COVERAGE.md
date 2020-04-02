@@ -98,7 +98,7 @@
       √ should transform wgs84 to web mercator
 
 
-  73 passing (25ms)
+  73 passing (31ms)
 
 -----------------------------|---------|----------|---------|---------|-------------------
 File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
